@@ -1,0 +1,322 @@
+{
+    "book1" : {
+        "xPos" : "10px",
+        "shelf": "1",
+        "rot" : "0",
+        "clr" : "brown",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book2" : {
+        "xPos" : "35px",
+        "shelf": "1",
+        "rot" : "0",
+        "clr" : "#a40",
+        "height": "50px",
+        "width": "30px"
+    },
+    "book3" : {
+        "xPos" : "70px",
+        "shelf": "1",
+        "rot" : "0",
+        "clr" : "#b50",
+        "height": "80px",
+        "width": "10px"
+    },
+    "book4" : {
+        "xPos" : "85px",
+        "shelf": "1",
+        "rot" : "0",
+        "clr" : "#b50",
+        "height": "85px",
+        "width": "10px"
+    },
+    "book5" : {
+        "xPos" : "110px",
+        "shelf": "1",
+        "rot" : "15",
+        "clr" : "#b50",
+        "height": "80px",
+        "width": "10px"
+    },
+    "book6" : {
+        "xPos" : "126px",
+        "shelf": "1",
+        "rot" : "15",
+        "clr" : "#dd0",
+        "height": "70px",
+        "width": "25px"
+    },
+    "book7" : {
+        "xPos" : "156px",
+        "shelf": "1",
+        "rot" : "15",
+        "clr" : "#dd0",
+        "height": "70px",
+        "width": "25px"
+    },
+    "book8" : {
+        "xPos" : "245px",
+        "shelf": "1",
+        "rot" : "350",
+        "clr" : "white",
+        "height": "60px",
+        "width": "20px"
+    },
+    "book9" : {
+        "xPos" : "270px",
+        "shelf": "1",
+        "rot" : "350",
+        "clr" : "white",
+        "height": "60px",
+        "width": "20px"
+    },
+    "book10" : {
+        "xPos" : "295px",
+        "shelf": "1",
+        "rot" : "350",
+        "clr" : "white",
+        "height": "60px",
+        "width": "20px"
+    },
+    "book11" : {
+        "xPos" : "320px",
+        "shelf": "1",
+        "rot" : "350",
+        "clr" : "white",
+        "height": "60px",
+        "width": "20px"
+    },
+    "book12" : {
+        "xPos" : "345px",
+        "shelf": "1",
+        "rot" : "350",
+        "clr" : "white",
+        "height": "60px",
+        "width": "20px"
+    },
+    "book13" : {
+        "xPos" : "370px",
+        "shelf": "1",
+        "rot" : "350",
+        "clr" : "white",
+        "height": "60px",
+        "width": "20px"
+    },
+    "book14" : {
+        "xPos" : "10px",
+        "shelf": "2",
+        "rot" : "0",
+        "clr" : "#b80",
+        "height": "50px",
+        "width": "30px"
+    },
+    "book15" : {
+        "xPos" : "45px",
+        "shelf": "2",
+        "rot" : "0",
+        "clr" : "#b80",
+        "height": "50px",
+        "width": "30px"
+    },
+    "book16" : {
+        "xPos" : "80px",
+        "shelf": "2",
+        "rot" : "0",
+        "clr" : "#b80",
+        "height": "50px",
+        "width": "30px"
+    },
+    "book17" : {
+        "xPos" : "200px",
+        "shelf": "2",
+        "rot" : "0",
+        "clr" : "#55f",
+        "height": "10px",
+        "width": "110px"
+    },
+    "book18" : {
+        "xPos" : "202px",
+        "shelf": "2.1",
+        "rot" : "0",
+        "clr" : "#55f",
+        "height": "10px",
+        "width": "110px"
+    },
+    "book19" : {
+        "xPos" : "200px",
+        "shelf": "2.21",
+        "rot" : "0",
+        "clr" : "#55f",
+        "height": "10px",
+        "width": "110px"
+    },
+    "book20" : {
+        "xPos" : "198px",
+        "shelf": "2.32",
+        "rot" : "0",
+        "clr" : "#55f",
+        "height": "10px",
+        "width": "110px"
+    },
+    "book21" : {
+        "xPos" : "200px",
+        "shelf": "2.43",
+        "rot" : "0",
+        "clr" : "#55f",
+        "height": "10px",
+        "width": "110px"
+    },
+    "book22" : {
+        "xPos" : "172px",
+        "shelf": "2",
+        "rot" : "350",
+        "clr" : "green",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book23" : {
+        "xPos" : "315px",
+        "shelf": "2",
+        "rot" : "0",
+        "clr" : "#929",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book24" : {
+        "xPos" : "340px",
+        "shelf": "2",
+        "rot" : "0",
+        "clr" : "#929",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book25" : {
+        "xPos" : "10px",
+        "shelf": "3",
+        "rot" : "0",
+        "clr" : "#b50",
+        "height": "70px",
+        "width": "40px"
+    },
+    "book26" : {
+        "xPos" : "55px",
+        "shelf": "3",
+        "rot" : "0",
+        "clr" : "#b50",
+        "height": "70px",
+        "width": "40px"
+    },
+    "book27" : {
+        "xPos" : "100px",
+        "shelf": "3",
+        "rot" : "0",
+        "clr" : "#b50",
+        "height": "70px",
+        "width": "40px"
+    },
+    "book28" : {
+        "xPos" : "145px",
+        "shelf": "3",
+        "rot" : "0",
+        "clr" : "#b50",
+        "height": "70px",
+        "width": "40px"
+    },
+    "book29" : {
+        "xPos" : "190px",
+        "shelf": "3",
+        "rot" : "0",
+        "clr" : "#b50",
+        "height": "70px",
+        "width": "40px"
+    },
+    "book30" : {
+        "xPos" : "370px",
+        "shelf": "4.02",
+        "rot" : "350",
+        "clr" : "#3a3",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book31" : {
+        "xPos" : "345px",
+        "shelf": "4.02",
+        "rot" : "350",
+        "clr" : "#6a6",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book32" : {
+        "xPos" : "320px",
+        "shelf": "4.02",
+        "rot" : "350",
+        "clr" : "#aa6",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book33" : {
+        "xPos" : "295px",
+        "shelf": "4.02",
+        "rot" : "350",
+        "clr" : "#aa3",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book34" : {
+        "xPos" : "270px",
+        "shelf": "4.02",
+        "rot" : "350",
+        "clr" : "#ba9345",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book35" : {
+        "xPos" : "245px",
+        "shelf": "4.02",
+        "rot" : "350",
+        "clr" : "#c4503b",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book36" : {
+        "xPos" : "220px",
+        "shelf": "4.02",
+        "rot" : "350",
+        "clr" : "#d12e62",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book37" : {
+        "xPos" : "195px",
+        "shelf": "4.02",
+        "rot" : "350",
+        "clr" : "#c13eb3",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book38" : {
+        "xPos" : "170px",
+        "shelf": "4.02",
+        "rot" : "350",
+        "clr" : "#8e3bc4",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book39" : {
+        "xPos" : "145px",
+        "shelf": "4.02",
+        "rot" : "350",
+        "clr" : "#532fd0",
+        "height": "70px",
+        "width": "20px"
+    },
+    "book40" : {
+        "xPos" : "366px",
+        "shelf": "3",
+        "rot" : "330",
+        "clr" : "#902",
+        "height": "70px",
+        "width": "15px"
+    }
+}

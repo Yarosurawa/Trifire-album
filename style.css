@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+body {
+    transform-origin: calc(50vw - 220px + 380px) calc(20vh + 180px);
+    overflow: hidden;
+}
+
+
+* {
+    margin: 0;
+}
+
+.obj {
+    position: absolute;
+}
+
+.section {
+    position: absolute;
+    left: -20px;
+    width: 400px;
+    height: 100px;
+    border: 20px solid #c45e3f;
+    background: linear-gradient(-45deg, #7c3a25, #492216);
+    border-top: 0;
+}
+
+.section1 {
+    box-shadow: inset 40px 20px 0 #492216, inset -40px -10px 0 #492216;
+    top: 0px;
+}
+
+.section2 {
+    box-shadow: inset 40px 15px 0 #492216, inset -40px -15px 0 #492216;
+    top: 120px;
+}
+
+.section3 {
+    box-shadow: inset 40px 15px 0 #492216, inset -40px -15px 0 #492216;
+    top: 240px;
+}
+
+.section4 {
+    box-shadow: inset 40px 10px 0 #492216, inset -40px -20px 0 #492216;
+    top: 360px;
+}
+
+
+#shelf {
+    width: 400px;
+    height: 500px;
+    border: 20px solid #c45e3f;
+    border-bottom: none;
+    transform: translate(calc(50vw - 220px), 20vh);
+}
+
+#wall {
+    z-index: -2;
+    width: 200vw;
+    left: -50vw;
+    height: 200vh;
+    top: -50vh;
+    background-color: #aaf;
+}
+
+#floor {
+    top: 65vh;
+    z-index: -1;
+    width: 200vw;
+    left: -50vw;
+    height: 80vh;
+    background-color: #77a;
+}
+
+#blackness {
+    position: absolute;
+    transition: transform 2s ease;
+    transform: translateY(100vh);
+    z-index: 2;
+    width: 200vw;
+    left: -50vw;
+    height: 200vh;
+    background: linear-gradient(#0000 10%, #000 35%, #000 70%, #0000 90%);
+}
+
+#book-page {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: no-repeat url(./img/NDBH1-1-transformed.webp);
+    transform: translateY(100vh);
+    background-size: cover;
+}
+
+#book-inhres {
+    opacity: 0;
+    border-radius: 10px;
+    transform: translate(calc(50vw - 222.5px), -655px);
+    /* translate: calc(50vw - 222.5px) calc(50vh - 327.5px); */
+    font-family: 'Dancing Script', cursive;
+    transition: transform 2s ease;
+    width: 445px;
+    height: 655px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.page {
+    text-shadow: 0 0 4px #0005;
+    font-size: 40px;
+    padding: 30px;
+    transition: transform 0.9s ease;
+    top: 2.5px;
+    transform-origin:0 100%;
+    border-radius: 10px;
+    height: 610px;
+    width: 410px;
+    background: url("https://wallpaperaccess.com/full/4868950.jpg");
+    position: absolute;
+}
+
+.titlepage {
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateZ(20px);
+    width: 415px;
+    height: 615px;
+    background: url(./img/a0697af2de64d67cf6dbb2a13dbc0457.webp) no-repeat center center fixed;
+    background-size:cover;
+}
+
+.titlepageBehind {
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateZ(19.9px);
+    width: 415px;
+    height: 615px;
+    background: url(./img/a0697af2de64d67cf6dbb2a13dbc0457.webp) no-repeat center center fixed;
+    background-size:cover;
+}
+
+.page1 {
+    transform: translateZ(18px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page2 {transform: translateZ(17.9px);}
+.page3 {transform: translateZ(17px);}
+.page4 {transform: translateZ(16.9px);}
+.page5 {transform: translateZ(16px);}
+.page6 {transform: translateZ(15.9px);}
+.page7 {transform: translateZ(15px);}
+.page8 {transform: translateZ(14.9px);}
+.page9 {transform: translateZ(14px);}
+.page10 {transform: translateZ(13.9px);}
+.page11 {transform: translateZ(13px);}
+.page12 {transform: translateZ(12.9px);}
+.page13 {transform: translateZ(12px);}
+.page14 {transform: translateZ(11.9px);}
+/* .page15 {transform: translateZ(17.9px);}
+.page16 {transform: translateZ(17px);}
+.page17 {transform: translateZ(17px);}
+.page18 {transform: translateZ(14.9px);}
+.page19 {transform: translateZ(14px);}
+.page20 {transform: translateZ(13.9px);}
+.page21 {transform: translateZ(13px);}
+.page22 {transform: translateZ(12.9px);}
+.page23 {transform: translateZ(17px);}
+.page24 {transform: translateZ(16.9px);}
+.page25 {transform: translateZ(16px);}
+.page26 {transform: translateZ(15.9px);}
+.page27 {transform: translateZ(15px);}
+.page28 {transform: translateZ(14.9px);}
+.page29 {transform: translateZ(14px);}
+.page30 {transform: translateZ(13.9px);}
+.page32 {transform: translateZ(13.9px);}
+.page33 {transform: translateZ(13.9px);} */
+
+.backpageBehind {
+    left: 0;
+    top: 0;
+    transform: translateZ(11px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 415px;
+    height: 615px;
+    background: url(./img/a0697af2de64d67cf6dbb2a13dbc0457.webp) no-repeat center center fixed;
+    background-size:cover;
+}
+
+.backpage {
+    left: 0;
+    top: 0;
+    transform: translateZ(10.9px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 415px;
+    height: 615px;
+    background: url(./img/a0697af2de64d67cf6dbb2a13dbc0457.webp) no-repeat center center fixed;
+    background-size:cover;
+}
+
+.bookTitle {
+    color: #000a;
+    text-shadow: 0 0 10px #a20;
+    width: 220px;
+    font-size: 60px;
+}
+
+.bookAuthor {
+    margin-top: 125px;
+    color: #000a;
+    text-shadow: 0 0 10px #a20;
+    width: 220px;
+    font-size: 20px;
+}
+
+.lefty .pageContent {
+    transform: rotate3d(0, 1, 0, 180deg);
+}
+
+#hint {
+    position: absolute;
+    width: 100vw;
+    opacity: 0;
+    text-align: center;
+    z-index: 10;
+    font: 100px 'Dancing Script', cursive;
+    transform: translateY(80vh);
+    animation: anim1 10s infinite ease-in-out;
+    color: #0007;
+    filter: blur(10px);
+}
+
+@keyframes anim1 {
+    0% {translate: -20px 0;}
+    50% { translate: 20px 0;}
+    100% {translate: -20px 0;}
+}
+
+.photoDate  {
+    font-size: 20px;
+    text-align: center;
+}
+
+.flex {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.imageDesc {
+    font-size: 30px;
+}
